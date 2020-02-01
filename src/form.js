@@ -1,4 +1,4 @@
-'use strict';
+
 
 function serializeJson(form) {
   const formData = new FormData(form);
@@ -8,5 +8,5 @@ function serializeJson(form) {
 }
 
 export default {
-    serializeJson
-}
+  serializeJson
+};
