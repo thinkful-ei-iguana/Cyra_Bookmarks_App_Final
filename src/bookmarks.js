@@ -72,9 +72,9 @@ const render = function() {
       <input type="radio" name="rating" value="5" id="rating" required>5
       </label>
       <label for="desc"></label>
-      <input class="description" type="text" name="desc" placeholder="add a description (optional)">
-      <button class="cancel">Cancel</button>
+      <input class="description" type="text" name="desc" placeholder="add a description (optional)">      
       <input type="submit" class="create"></input>
+      <button class="cancel">Cancel</button>
     </form>`;
   }else{
     html = generateBookmarkList(bookmarks);}

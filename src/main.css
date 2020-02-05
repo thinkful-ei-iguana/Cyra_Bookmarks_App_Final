@@ -1,12 +1,25 @@
 * {
-    padding: 0;
+    padding: 2px;
     margin: 0;
     background-color: rgb(11, 158, 168);
+    justify-content: center;
 }
 
 body {
+    display: block;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     height: 100vh;
     font-family: 'Alegreya Sans', sans-serif;
+    justify-content: center;
+}
+
+.header-container {
+    padding: 15px;
+    margin: auto;
+    justify-content: center;
 }
 
 form .hidden {
@@ -178,12 +191,14 @@ form.add-new {
 
 button.cancel {
     background-color: whitesmoke;
-    width: 90%;
+    width: 40%;
     margin: auto;
 }
 
-button.create {
+.create {
     background-color: whitesmoke;
+    width: 40%;
+    margin: auto;
 }
 
 .description {
